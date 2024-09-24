@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <i class="fa-solid fa-sun tempo" style="font-size: 50px"></i>
+      <label for="cidade">Escolha uma cidade</label>
+      <div class="location">
+        <input type="text" name="" id="cidade" placeholder="Informe a cidade">
+        <i class="fa-solid fa-location-dot"></i>
+      </div>
+      <div class="info">
+        <p id="city"><i class="fa-solid fa-location-dot" style="font-size: 40px"></i></p></div>
+        <p id="temperature"></p><br>
+        <p id="humidade"></p><br>
+      <input type="button" value="Ver" id="buscar" onclick="buscarClima()" class="">
+    </div>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>
